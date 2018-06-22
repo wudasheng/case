@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc9b6f4e-0812-4353-9f1b-a3f52b260bdf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/case/case1/55.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/case1/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/case1/55.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/case1/__init__.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="object.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="object.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/case/public/object.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="531">
@@ -55,15 +54,6 @@
               <folding>
                 <element signature="e#81#114#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="55.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/case/case1/55.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -160,12 +150,6 @@
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-              <item name="case1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
@@ -387,7 +371,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="16" width="1400" height="820" extended-state="0" />
+    <frame x="102" y="16" width="1400" height="820" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -626,6 +610,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/case/case1/55.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/case/public/object.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
@@ -633,13 +624,6 @@
           <folding>
             <element signature="e#81#114#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/case1/55.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
