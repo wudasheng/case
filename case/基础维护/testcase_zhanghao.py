@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # author: wudasheng time:2018/6/21
-from case.public.object import login
+from public.object import login
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from case.public.base import Page
+from public.base import Page
 from time import sleep
 from selenium import webdriver
 import unittest,time
