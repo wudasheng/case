@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # author: wudasheng time:2018/6/21
-from public.object import login
+from case.public.object import login
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from public.base import Page
+from case.public.base import Page
 from time import sleep
 from selenium import webdriver
 import unittest,time
@@ -13,7 +13,7 @@ import unittest,time
 class zhanghaoleixing(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.url = "http://localhost:4200/#/login/"
+        self.url = "http://192.168.1.102:4200/#/login/"
         self.driver.implicitly_wait(60)
         self.driver.maximize_window()
 
@@ -26,7 +26,7 @@ class zhanghaoleixing(unittest.TestCase):
         sleep(2)
         now_url = driver.current_url
         try:
-            assert now_url == 'http://localhost:4200/#/basedata/accounttype'
+            assert now_url == 'http://192.168.1.102:4200/#/basedata/accounttype'
         except:
             Page.get_screenshot(self)
         driver.quit()

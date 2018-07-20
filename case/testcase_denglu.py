@@ -13,7 +13,7 @@ class denglu(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.url = "http://localhost:4200/#/login"
+        self.url = "http://192.168.1.102:4200/#/login"
         self.driver.implicitly_wait(60)
         self.driver.maximize_window()
     #登录账号
@@ -25,7 +25,7 @@ class denglu(unittest.TestCase):
         sleep(3)
         now_url = driver.current_url
         try:
-            assert now_url == 'http://localhost:4200/#/home'
+            assert now_url == 'http://192.168.1.102:4200/#/home'
         except:
             Page.get_screenshot(self)
         driver.quit()
